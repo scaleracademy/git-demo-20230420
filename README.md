@@ -10,13 +10,13 @@
 git log --graph --oneline --decorate --all
 ```
 
-### Create a new branch called 'readme'
+#### Create a new branch called 'readme'
 
 ```
 git checkout -b readme
 ```
 
-### Resolving a merge conflict 
+#### Resolving a merge conflict 
 
 You first try to merge
 ```
@@ -50,3 +50,12 @@ You commit the file
 ```
 git commit
 ```
+
+#### Creating a pull request on Github
+
+1. Go to the repository on Github
+2. Fork the repository under your own account 
+3. Clone the repository to your local machine
+4. Make changes to the repository, commit those changes and push them to your forked repository
+5. Go to your forked repository on Github and click on the 'New pull request' button
+6. Click on the 'Create pull request' button
